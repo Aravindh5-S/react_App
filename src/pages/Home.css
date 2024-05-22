@@ -24,7 +24,7 @@
     margin-top: 70px;
     overflow: hidden;
     position: relative;
-
+    
     
     
 }
@@ -46,7 +46,8 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgb(214, 221, 228);
+    /* background: rgb(214, 221, 228); */
+    background: var(--first-color);
     border-radius:50%;
     z-index: -10;
   }
@@ -62,6 +63,7 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     background: rgba(225, 225, 225, 0.2);
     backdrop-filter: blur(5px);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     position: relative;
 }
 .social-icons{
@@ -227,8 +229,7 @@
      border: 3px solid var(--text-color-third);
      font-size: 1.5rem;
      cursor: pointer;
-     z-index: 100;
-    animation: rotate 10s ease infinite;
+    /* animation: rotate 15s ease infinite; */
     
 }
 
